@@ -1,0 +1,16 @@
+# Cloud Application with Java and Database — Lab Assignments
+
+**Course:** CAWJ  
+**Date:** 11-08-2025
+
+This folder contains my Java solutions for the CAWJ lab.  
+All the questions listed below are **completed** ✅.
+
+## Assignment Tasks (Completed)
+
+1. ✅ **Hello World** – Understand build & runtime settings  
+2. ✅ **Print 3 arguments from command line**  
+3. ✅ **Sum of 3 numeric arguments from command line**  
+4. ✅ **String operations:** take input, display in alphabetical order, and show length  
+5. ✅ **Palindrome check**  
+6. ✅ **Count vowels in a string**  
