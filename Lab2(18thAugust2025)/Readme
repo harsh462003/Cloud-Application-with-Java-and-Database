@@ -1,2 +1,175 @@
 28th August 2025
 Monday
+
+# Java Programming Assignment Collection
+
+This repository contains a collection of Java programming exercises demonstrating fundamental programming concepts including arrays, pattern printing, user authentication, and interactive menu systems.
+
+## Files Overview
+
+| File | Description | Assignment # |
+|------|-------------|--------------|
+| `Main.java` | Basic "Hello World" program with loop demonstration | - |
+| `question1.java` | Menu-driven pattern printing system with authentication | 5 |
+| `question2.java` | Array duplicate element finder | 1 |
+| `question3.java` | Kth largest and smallest element finder | 2 |
+| `question4.java` | Array sorting (positive/negative segregation) | 3 |
+| `question5.java` | Interactive quiz with limited attempts | 4 |
+| `question6.java` | Floyd's Triangle pattern generator | 5 |
+
+## Program Details
+
+### 1. Main.java
+A simple introductory program that prints a welcome message and demonstrates a basic for loop.
+
+**Features:**
+- Basic console output
+- For loop demonstration
+
+### 2. question1.java - Pattern Printing Menu System
+A comprehensive menu-driven program with user authentication and multiple pattern printing options.
+
+**Features:**
+- User authentication system (username/password)
+- Masked password input
+- Interactive menu with 5 options:
+  1. Right-angled triangle (with numbers)
+  2. Reversed right-angled triangle (with numbers)
+  3. Number pyramid
+  4. Star pyramid
+  5. Exit
+
+**Default Credentials:**
+- Username: `msis`, Password: `msis`
+- Username: `user`, Password: `name`
+- Username: `student`, Password: `hello`
+
+### 3. question2.java - Duplicate Element Finder
+Finds and displays all duplicate elements in an integer array along with their indices.
+
+**Features:**
+- Dynamic array size input
+- Duplicate detection with index reporting
+- Handles arrays with no duplicates
+
+### 4. question3.java - Kth Element Finder
+Finds the kth largest and kth smallest elements in an array using bubble sort.
+
+**Features:**
+- Bubble sort implementation
+- Kth largest and smallest element identification
+- User-defined k value
+
+### 5. question4.java - Array Sorter
+Sorts an array to arrange negative numbers on the left and positive numbers on the right.
+
+**Features:**
+- Bubble sort algorithm
+- Integer array manipulation
+- Console input/output
+
+**Note:** Current implementation sorts the entire array. For proper negative/positive segregation, consider using a partitioning algorithm.
+
+### 6. question5.java - Interactive Quiz
+A quiz program that gives users 3 attempts to answer a question correctly.
+
+**Features:**
+- Question: "What is the capital of France?"
+- Case-insensitive answer checking
+- Limited attempts (3 chances)
+- Immediate feedback
+
+### 7. question6.java - Floyd's Triangle Generator
+Generates Floyd's Triangle patterns in two variations.
+
+**Features:**
+- Classic Floyd's Triangle (consecutive numbers)
+- Alternative pattern (alternating 0s and 1s)
+- User-defined number of rows
+
+## How to Run
+
+### Prerequisites
+- Java Development Kit (JDK) 8 or higher
+- Command line terminal or IDE (IntelliJ IDEA, Eclipse, etc.)
+
+### Compilation and Execution
+
+1. **Compile a Java file:**
+   ```bash
+   javac filename.java
+   ```
+
+2. **Run the compiled program:**
+   ```bash
+   java filename
+   ```
+
+### Example:
+```bash
+javac question1.java
+java question1
+```
+
+## Usage Examples
+
+### Pattern Printing Menu (question1.java)
+```
+Enter the username: msis
+Enter the password: ****
+Login successful:
+MENU
+1. RIGHT ANGLED TRIANGLE
+2. REVERSED RIGHT ANGLED TRIANGLE
+3. PYRAMID number
+4. PYRAMID pattern *
+5. EXIT
+```
+
+### Duplicate Finder (question2.java)
+```
+Enter the size of the array: 5
+Enter the array element:
+1 2 3 2 4
+The element 2 is repeating in index 1 and 3
+```
+
+### Floyd's Triangle (question6.java)
+```
+Enter number of rows for Floyd's Triangle: 4
+
+Floyd's Triangle:
+1 
+2 3 
+4 5 6 
+7 8 9 10 
+```
+
+## Key Programming Concepts Demonstrated
+
+- **Object-Oriented Programming:** Class structure and static methods
+- **User Input/Output:** Scanner class usage and console interaction
+- **Control Structures:** Loops (for, while, do-while) and conditional statements
+- **Array Manipulation:** Sorting, searching, and element comparison
+- **String Handling:** Password masking and string comparison
+- **Authentication Systems:** Basic username/password verification
+- **Pattern Generation:** Mathematical pattern printing algorithms
+
+## Notes
+
+- `question1.java` includes advanced password masking functionality
+- All programs include basic error handling and user-friendly interfaces
+- Code includes helpful comments explaining functionality
+- Programs demonstrate different sorting and searching techniques
+
+## Future Improvements
+
+- Add input validation for all user inputs
+- Implement more efficient sorting algorithms (QuickSort, MergeSort)
+- Add exception handling for edge cases
+- Enhance password security with encryption
+- Add more pattern printing options
+
+## Author
+
+Created as part of a Java programming assignment series focusing on fundamental programming concepts and problem-solving techniques.
